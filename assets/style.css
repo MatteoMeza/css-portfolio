@@ -41,7 +41,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 2.00vw;
 }
 
 header nav ul li a:hover {
@@ -49,3 +49,57 @@ header nav ul li a:hover {
     color: #fff;
     border-radius: 15px;
 }
+/* header / nav styles end */
+
+/* hero styles start */
+.hero {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+/* hero styles end */
+
+/* section title styles start */
+.section-title {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    color: #005a9c;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 35px auto 35px auto;
+    width: 50%;
+    border-color: #ef3342;
+}
+/* section title styles end */
+
+/* about me styles start */
+.bio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    align-items: flex-start;
+}
+
+.bio img {
+    border: 5px solid #ef3342;
+    padding: 20px;
+    width: 40%;
+    margin: 3.5%;
+    border-radius: 15px;
+    text-align: right;
+}
+
+.bio p {
+    width: 35%;
+    text-align: left;
+    margin: 3.5%;
+    color: #005a9c;
+    font-size: 20px;
+    line-height: 1.2;
+ }
